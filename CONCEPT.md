@@ -4,9 +4,9 @@
 
 Der POC zeigt, wie die bestehende Exodus90.de-Website technisch deutlich einfacher umgesetzt werden kann, ohne ihre erkennbare Struktur, Sprache und Markenwirkung unnötig zu verändern.
 
-Die fachliche Struktur bleibt an der deutschen Website orientiert. Die visuelle Richtung orientiert sich stärker an der aktuellen Exodus90.com: hochwertige Editorial-Anmutung, große Typografie, viel Weißraum, ruhige Off-White-Flächen, starke schwarze Kontrastbereiche und Orange als gezielter Markenakzent statt als dauerhafte Vollfläche.
+Die fachliche Struktur bleibt an der deutschen Website orientiert. Die visuelle Richtung kombiniert die Professionalität der aktuellen Exodus90.com mit der zugänglicheren, leichteren Wirkung von Exodus90.de.
 
-Dabei wird Exodus90.com nicht pixelgenau kopiert. Ziel ist ein eigenständiger deutscher Auftritt innerhalb derselben professionellen Markenwelt.
+Ziel ist ausdrücklich keine rein funktionale Informationsseite, sondern ein eigenständiger deutscher Auftritt mit Atmosphäre, Rhythmus und visueller Qualität – ohne die technische Komplexität unnötig zu erhöhen.
 
 ## Zielgruppe
 
@@ -52,14 +52,16 @@ Männer, die sich über Exodus 90 informieren, eine Gruppe finden, Erfahrungsber
 
 ## Designprinzipien
 
-- visuelle Referenz: aktuelle Exodus90.com-Markenwelt
-- warme Off-White-Flächen statt permanentem Orange-Hintergrund
-- Schwarz als starker Editorial-Kontrast
-- Orange gezielt für CTAs, Markenmomente und einzelne Flächen einsetzen
-- sehr große, kompakte Headlines mit klarer Hierarchie
-- viel Weißraum und großzügige vertikale Abstände
-- ruhige Karten mit weichen Radien statt harter Rahmenraster
-- Storytelling über wechselnde große Inhaltsflächen statt gleichförmiger Moduloptik
+- visuelle Mischung aus Exodus90.com und Exodus90.de
+- hochwertige Editorial-Anmutung ohne überdimensionierte oder klotzige Typografie
+- warme Off-White-Flächen und viel Luft als Grundstimmung
+- Schwarz weiterhin als gezielter Kontrast, aber nicht als dauerhafte dominante Masse
+- Orange dosiert für CTAs, Markenmomente und einzelne Akzente
+- kleinere und feinere Typostufen mit klarer Hierarchie
+- asymmetrische und leicht versetzte Layouts für mehr Dynamik
+- weichere organische Formen und subtilere Flächen statt schwerer Kartenblöcke
+- wechselnde Abstände und visuelle Rhythmen statt gleichförmiger Moduloptik
+- ruhige, hochwertige Mikrointeraktionen statt auffälliger Animationen
 - gemeinsame Designlogik für Startseite und Unterseiten
 - keine pixelgenaue Kopie und keine Übernahme fremder Bildassets
 
@@ -79,7 +81,8 @@ Männer, die sich über Exodus 90 informieren, eine Gruppe finden, Erfahrungsber
 
 - bestehende Informationsarchitektur und Sprache respektieren
 - wichtige Inhalte auf eigenen Unterseiten statt alles in eine Single Page zu pressen
-- klare visuelle Hierarchie
+- klare visuelle Hierarchie ohne visuelle Schwere
 - wenige, eindeutige Handlungsaufforderungen
+- Gestaltung soll emotional und hochwertig wirken, nicht nur funktional
 - mobile Nutzung als gleichwertiger Standard
 - technische Komplexität nur dort einsetzen, wo sie echten Nutzen bringt
