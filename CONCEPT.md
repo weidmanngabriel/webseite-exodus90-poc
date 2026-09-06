@@ -2,62 +2,59 @@
 
 ## Ziel
 
-Der POC zeigt, wie die bestehende Exodus90.de-Website als deutlich einfachere, modernere und wartbare Website umgesetzt werden kann, ohne die grundlegende Informationsarchitektur unnötig neu zu erfinden.
+Der POC zeigt, wie die bestehende Exodus90.de-Website technisch deutlich einfacher umgesetzt werden kann, ohne ihre erkennbare Struktur, Sprache und Markenwirkung unnötig zu verändern.
 
-Die Seite ist primär eine Informations- und Einstiegsseite. Interaktivität wird nur dort eingesetzt, wo sie einen klaren Nutzen hat.
+Der Relaunch orientiert sich deshalb bewusst stärker an der aktuellen deutschen Website: kräftiges Orange, Schwarz/Weiß, direkte Headlines und CTAs sowie eigenständige Unterseiten für zentrale Inhalte.
 
 ## Zielgruppe
 
-Männer, die sich über Exodus 90 informieren, verstehen möchten wie das Programm funktioniert und einen konkreten nächsten Schritt suchen – insbesondere eine Gruppe finden, Materialien ansehen oder Kontakt aufnehmen.
+Männer, die sich über Exodus 90 informieren, eine Gruppe finden, Erfahrungsberichte lesen, Materialien herunterladen oder Kontakt zum deutschen Netzwerk aufnehmen möchten.
 
-## Kernfeatures
+## Seiten und Kernfeatures
 
-### Navigation
-- responsive Hauptnavigation
-- Sprung zu den wichtigsten Inhaltsbereichen
-- klar hervorgehobener Einstieg „Gruppe finden“
+### Startseite
+- Hero mit der bekannten Kernbotschaft „In 90 Tagen zu einem besseren Mann“
+- prominenter CTA „Finde deine Gruppe“
+- Einführung in Gebet, Askese und Bruderschaft
+- Einstieg in Gruppensuche, Erfahrungen, Downloads und Netzwerk
+- Newsletter-Formular
+- Kontaktformular
 
-### Start / Hero
-- prägnante Positionierung von Exodus 90
-- kurze Erklärung des Programms
-- primäre Handlungsaufforderung zur Gruppensuche
-- sekundärer Einstieg in die Programminformationen
-
-### Programminformation
-- Erklärung, was Exodus 90 ist
-- Darstellung der drei zentralen Bereiche Gebet, Askese und Bruderschaft
-- kompakter Überblick über den 90-Tage-Ablauf
-
-### Gruppen
-- Erklärung, warum Exodus 90 in einer Gruppe stattfindet
-- Einstieg in „Gruppe finden“ bzw. „Gruppe starten“
-- Kartenbereich im POC ausschließlich als sichtbarer Platzhalter
+### Finde deine Gruppe
+- eigene Unterseite für die Gruppensuche
+- Erklärung der Bedeutung der Bruderschaft
+- Kartenbereich zunächst als Platzhalter
+- Kontaktmöglichkeit zum Finden oder Gründen einer Gruppe
 
 ### Erfahrungen
-- kurze Erfahrungsberichte als direkt lesbare Inhalte
-- optionaler Verweis auf ausführlichere Berichte/Downloads
+- eigene Unterseite für Erfahrungsberichte
+- kurze Einordnung vorhandener Zeugnisse
+- Links auf die bestehenden ausführlichen PDF-Berichte
 
 ### Downloads
-- einfache Übersicht für Materialien und weiterführende Dokumente
-- im POC beispielhafte Einträge ohne komplexes Dokumentenmanagement
+- eigene Unterseite für vorhandene Dokumente und Materialien
+- einfache statische Download-Liste ohne CMS
 
-### FAQ
-- häufige Fragen als Accordion
-- einfache clientseitige Interaktion
-
-### Newsletter
-- einfaches Formular als UI-Prototyp
-- keine echte Übertragung im POC
+### Netzwerk Exodus
+- eigene Unterseite für den deutschen Netzwerk-Kontext
+- Erklärung der Rolle der deutschen Website als lokaler Einstieg
 
 ### Kontakt
-- einfaches Kontaktformular als UI-Prototyp
-- keine echte Backend-Verarbeitung im POC
+- eigene Kontaktseite zusätzlich zum Kontaktbereich auf der Startseite
+- Formular als UI-Prototyp ohne echte Übertragung
 
-### Footer
-- Kontakt
-- Downloads
-- Netzwerk/weiterführende Links
-- Impressum und Datenschutz als Platzhalterlinks
+### Rechtliches
+- Impressum und Datenschutz als eigene Unterseiten
+- im POC nur als Platzhalter, weil produktive Rechtstexte nicht erfunden werden sollen
+
+## Designprinzipien
+
+- stärkere Orientierung an der bestehenden Exodus-90-Markenwelt
+- Orange als dominante Akzent- und Hero-Farbe
+- Schwarz/Weiß als kontrastreiche Basis
+- große, direkte Typografie und kurze Handlungsaufforderungen
+- markantes Badge/Logo-Motiv als wiederkehrendes Gestaltungselement
+- reduzierte technische Umsetzung trotz stärkerer visueller Nähe
 
 ## Nicht Bestandteil des POC
 
@@ -73,9 +70,9 @@ Männer, die sich über Exodus 90 informieren, verstehen möchten wie das Progra
 
 ## UX-Grundsätze
 
-- bestehende inhaltliche Logik respektieren
+- bestehende Informationsarchitektur und Sprache respektieren
+- wichtige Inhalte auf eigenen Unterseiten statt alles in eine Single Page zu pressen
 - klare visuelle Hierarchie
 - wenige, eindeutige Handlungsaufforderungen
 - mobile Nutzung als gleichwertiger Standard
-- Inhalte schnell erfassbar machen
-- technische Komplexität nicht durch unnötige Interaktivität erhöhen
+- technische Komplexität nur dort einsetzen, wo sie echten Nutzen bringt
