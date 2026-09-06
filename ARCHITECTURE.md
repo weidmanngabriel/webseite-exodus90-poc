@@ -2,13 +2,13 @@
 
 ## Zielbild
 
-Der POC ist eine bewusst schlanke, statische Website ohne Backend und ohne Build-Step. Die technische Struktur soll leicht verständlich, direkt auslieferbar und einfach erweiterbar bleiben.
+Der POC bleibt eine bewusst schlanke, statische Website ohne Backend und ohne Build-Step. Die technische Struktur bildet die bestehende Exodus90.de-Seitenlogik nun als kleine Multi-Page-Site ab, statt alle Inhalte in eine Single Page zu pressen.
 
 ## Technologie
 
 - HTML für Seitenstruktur und Inhalte
-- CSS für Layout, Designsystem und Responsive Design
-- Vanilla JavaScript nur für kleine UI-Interaktionen
+- gemeinsames CSS für Layout, Markenwirkung und Responsive Design
+- Vanilla JavaScript nur für mobile Navigation und Demo-Formulare
 - GitHub Pages als Hosting-Ziel
 
 ## High-Level-Aufbau
@@ -16,58 +16,60 @@ Der POC ist eine bewusst schlanke, statische Website ohne Backend und ohne Build
 ```text
 Website
 ├── index.html
+├── gruppen.html
+├── erfahrungen.html
+├── downloads.html
+├── netzwerk.html
+├── kontakt.html
+├── impressum.html
+├── datenschutz.html
 ├── css/
 │   └── styles.css
 ├── js/
 │   └── main.js
-├── assets/
 └── .github/workflows/
     └── pages.yml
 ```
 
 ## Seitenmodell
 
-Der POC wird zunächst als kompakte Single-Page umgesetzt. Die bestehende Informationslogik wird über klar getrennte Inhaltssektionen abgebildet:
+Die Startseite übernimmt Einstieg, Kernbotschaft, kurze Programminformation, Newsletter und Kontakt. Größere bzw. eigenständige Themen liegen auf Unterseiten:
 
-- Header / Navigation
-- Hero
-- Programminformation
-- Gruppenbereich
-- Karten-Platzhalter
-- Erfahrungen
+- Gruppensuche
+- Erfahrungsberichte
 - Downloads
-- FAQ
-- Newsletter
+- Netzwerk Exodus
 - Kontakt
-- Footer
+- Impressum und Datenschutz
 
-Falls der Relaunch später wieder mehrere eigenständige Seiten benötigt, können dieselben visuellen und inhaltlichen Bausteine ohne grundlegenden Architekturwechsel auf mehrere HTML-Dateien verteilt werden.
+Die Gruppensuche enthält weiterhin nur einen Karten-Platzhalter; echte Standortlogik ist nicht Bestandteil des POC.
 
 ## UI-Struktur
 
-Wiederkehrende Muster werden als konsistente CSS-Komponenten gedacht, nicht als Framework-Komponenten. Dazu gehören insbesondere:
+Alle Seiten verwenden dieselben visuellen Muster über `css/styles.css`:
 
-- Buttons
-- Inhaltssektionen
-- Karten
-- CTA-Bereiche
+- Header und Hauptnavigation
+- Exodus-Logo/Badge-Motiv
+- orange Hero-/Akzentflächen
+- große Headlines und direkte CTAs
+- Inhaltsblöcke und Karten
 - Formulare
-- Accordion
-- Navigation und Footer
+- Footer
+
+Die Wiederverwendung erfolgt bewusst über gemeinsame CSS-Klassen statt über ein Framework oder einen Build-Prozess.
 
 ## Interaktivität
 
-JavaScript bleibt auf klar begrenzte UI-Funktionen beschränkt, insbesondere:
+JavaScript bleibt auf kleine UI-Funktionen begrenzt:
 
 - mobile Navigation
-- FAQ-Accordion
 - rein visuelle Formularbestätigung im POC
 
 Es gibt keine clientseitige Anwendungsarchitektur, kein State-Management und keine API-Schicht.
 
 ## Daten und Backend
 
-Der POC speichert keine produktiven Daten. Formulare werden nicht übertragen. Die spätere Gruppenkarte ist ausdrücklich nicht Bestandteil der ersten technischen Umsetzung und wird durch einen sichtbaren Platzhalter repräsentiert.
+Der POC speichert keine produktiven Daten. Formulare werden nicht übertragen. Vorhandene Erfahrungsberichte werden als externe PDF-Dokumente verlinkt. Rechtstexte sind im POC nur Platzhalter und müssen vor produktiver Nutzung geprüft werden.
 
 ## Deployment
 
@@ -76,8 +78,9 @@ Die Website wird direkt aus dem Repository über GitHub Pages veröffentlicht. E
 ## Architekturprinzipien
 
 - minimale technische Komplexität
+- Multi-Page-Struktur nur dort, wo sie der bestehenden Informationsarchitektur entspricht
 - statisch vor dynamisch
 - JavaScript nur bei echtem Mehrwert
+- gemeinsame Styles statt Framework-Komponenten
 - responsive und zugängliche Basisstruktur
-- klare Trennung von Inhalt, Styling und Verhalten
 - Erweiterbarkeit ohne vorzeitige Infrastruktur
