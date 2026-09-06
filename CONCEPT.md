@@ -4,7 +4,9 @@
 
 Der POC zeigt, wie die bestehende Exodus90.de-Website technisch deutlich einfacher umgesetzt werden kann, ohne ihre erkennbare Struktur, Sprache und Markenwirkung unnötig zu verändern.
 
-Der Relaunch orientiert sich deshalb bewusst stärker an der aktuellen deutschen Website: kräftiges Orange, Schwarz/Weiß, direkte Headlines und CTAs sowie eigenständige Unterseiten für zentrale Inhalte.
+Die fachliche Struktur bleibt an der deutschen Website orientiert. Die visuelle Richtung orientiert sich stärker an der aktuellen Exodus90.com: hochwertige Editorial-Anmutung, große Typografie, viel Weißraum, ruhige Off-White-Flächen, starke schwarze Kontrastbereiche und Orange als gezielter Markenakzent statt als dauerhafte Vollfläche.
+
+Dabei wird Exodus90.com nicht pixelgenau kopiert. Ziel ist ein eigenständiger deutscher Auftritt innerhalb derselben professionellen Markenwelt.
 
 ## Zielgruppe
 
@@ -16,6 +18,7 @@ Männer, die sich über Exodus 90 informieren, eine Gruppe finden, Erfahrungsber
 - Hero mit der bekannten Kernbotschaft „In 90 Tagen zu einem besseren Mann“
 - prominenter CTA „Finde deine Gruppe“
 - Einführung in Gebet, Askese und Bruderschaft
+- editorial aufgebaute Story-Sektionen statt rein technischer Kartenraster
 - Einstieg in Gruppensuche, Erfahrungen, Downloads und Netzwerk
 - Newsletter-Formular
 - Kontaktformular
@@ -49,12 +52,16 @@ Männer, die sich über Exodus 90 informieren, eine Gruppe finden, Erfahrungsber
 
 ## Designprinzipien
 
-- stärkere Orientierung an der bestehenden Exodus-90-Markenwelt
-- Orange als dominante Akzent- und Hero-Farbe
-- Schwarz/Weiß als kontrastreiche Basis
-- große, direkte Typografie und kurze Handlungsaufforderungen
-- markantes Badge/Logo-Motiv als wiederkehrendes Gestaltungselement
-- reduzierte technische Umsetzung trotz stärkerer visueller Nähe
+- visuelle Referenz: aktuelle Exodus90.com-Markenwelt
+- warme Off-White-Flächen statt permanentem Orange-Hintergrund
+- Schwarz als starker Editorial-Kontrast
+- Orange gezielt für CTAs, Markenmomente und einzelne Flächen einsetzen
+- sehr große, kompakte Headlines mit klarer Hierarchie
+- viel Weißraum und großzügige vertikale Abstände
+- ruhige Karten mit weichen Radien statt harter Rahmenraster
+- Storytelling über wechselnde große Inhaltsflächen statt gleichförmiger Moduloptik
+- gemeinsame Designlogik für Startseite und Unterseiten
+- keine pixelgenaue Kopie und keine Übernahme fremder Bildassets
 
 ## Nicht Bestandteil des POC
 
